@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@500;600&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background: #6b6b6b;
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+}
+
+.container {
+    max-width: 794px;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h5 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex-basis: 50%;
+    padding: 10px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.right {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.info i {
+    font-size: 20px;
+    background: #6b6b6b;
+
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.desc {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.info p {
+    margin: 0;
+}
+
+h4 {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif;
+}
