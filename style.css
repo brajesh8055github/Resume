@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background: #6b6b6b;
+    background: #4d4d4d;
     color: #fff;
     padding: 5px;
     margin: 0;
@@ -46,7 +46,7 @@ h5 {
 
 .info i {
     font-size: 20px;
-    background: #6b6b6b;
+    background: #4d4d4d;
 
     color: #fff;
     padding: 5px 10px;
@@ -65,4 +65,24 @@ h5 {
 h4 {
     border-bottom: 1px solid rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
+}
+.project{
+    text-decoration: none;
+}
+
+@media (max-width:702px) {
+    .content{
+        display: block;
+    }
+}
+
+@media (max-width:350px) {
+    .desc p{
+        font-size: 12px;
+    }
+}
+@media (max-width:315px) {
+    .header {
+        font-size: 28px;
+    }
 }
