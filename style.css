@@ -3,19 +3,22 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #000;
 }
 
 .header {
     background: #4d4d4d;
     color: #fff;
-    padding: 5px;
-    margin: 0;
+    padding:20px;
+    margin:0 0 90px 0 ;
 }
 
 .container {
-    max-width: 794px;
-    margin: auto;
+    max-width: 804px;
+    height: 1133px;
+    margin:auto;
     border: 1px solid rgb(0, 0, 0);
+    background: #ffffff;
 }
 
 h5 {
@@ -90,7 +93,13 @@ span{
 @media (max-width:702px) {
     .content{
         display: block;
+        
     }
+    .container{
+    height: auto;
+
+    }
+   
     .left{
         border: none;
     }
