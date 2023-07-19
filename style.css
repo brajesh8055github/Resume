@@ -62,17 +62,37 @@ h5 {
     margin: 0;
 }
 
-h4 {
+h3 {
     border-bottom: 1px solid rgb(0, 0, 0);
-    font-family: 'Nunito', sans-serif;
 }
 .project{
     text-decoration: none;
+    color: #4d4d4d;
+
 }
+span{
+    font-weight: bold;
+}
+
+
+.skill {
+    background: #4d4d4d;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin: 5px;
+    padding: 8px 15px;
+}
+
 
 @media (max-width:702px) {
     .content{
         display: block;
+    }
+    .left{
+        border: none;
     }
 }
 
