@@ -5,20 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script> -->
     <title>Resume</title>
 </head>
 
 <body>
-    <div class="container">
+    <div id="container">
         <h1 class="header">BRAJESH KUMAR</h1>
-
         <div class="content">
-
-            <!-- Left Portion -->
-
             <div class="left">
                 <h3>PROFILE INFO</h3>
                 <p>A fresher undergoing graduate in Electronics and Communication Engineering seeking a challenging
@@ -33,7 +27,6 @@
                             <p>7544805533</p>
                         </div>
                     </div>
-
                 </div>
                 <div>
                     <div class="info">
@@ -44,8 +37,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div>
                     <div class="info">
                         <i class="bi bi-geo-alt"></i>
@@ -57,59 +48,61 @@
                 </div>
                 <div>
                     <h3>MY SKILLS</h3>
-
-                    <!-- Things to change later -->
-
-                    <!-- <ul>
-                        <li>JAVA</li>
-                        <li>DSA</li>
-                        <li>OOPs</li>
-                        <li>Frontend Developer</li>
-                    </ul> -->
-
                     <button class="skill">JAVA</button>
                     <button class="skill">DSA</button>
                     <button class="skill">OPPs</button>
                     <button class="skill">GIT/GITHUB</button>
-                    <button class="skill">Reactjs</button>
+                    <!-- <button class="skill">Reactjs</button> -->
                     <button class="skill">Frontend Developer</button>
-                    <button class="skill">DBMS</button>
-                    <button class="skill">Operating System</button>
+                    <!-- <button class="skill">DBMS</button> -->
+                    <!-- <button class="skill">Operating System</button> -->
+                </div>
+
+                <div class="right">
+                    <h3>EDUCATION HISTORY</h3>
+                    <p><span>Haldia Institute of Technology</span> - Electronics and Communication Engineering</p>
+                    <ul>
+                        <li>Aug 2020 - Jun 2024</li>
+                        <li>YGPA : 8.53</li>
+                    </ul>
+                    <p><span>St. Xavier's Public School</span></p>
+                    <ul>
+                        <li>XII(2020) - 68.4%</li>
+                        <li>X(2017) - 9.8 CGPA</li>
+                    </ul>
+                    <h3>WORK EXPERIENCE</h3>
+                    <p>FULL-STACK WEBDEVELOPMENT WITH JAVA & SQL - (Jan 2023 - Feb 2023)</p>
+                    <p><span>United Network of Professionals</span></p>
+                    <div class="b-flex">
+                        <div>
+                            <h3>PROJECTS</h3>
+                            <p>Development:</p>
+                            <ul>
+                                <li><a href="https://portfolio52.netlify.app/" class="project">Portfolio</a></li>
+                                <li><a href="https://codeguide3.netlify.app/" class="project">Online Course
+                                        Application</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>REFRENCES</h3>
+                            <p><i class="bi bi-linkedin"></i> LinkedIn:</p>
+                            <a href="https://www.linkedin.com/in/brajesh-kumar-6354ab234/">brajeshkumar-6354ab234</a>
+                            <p><i class="bi bi-github"></i> Github:</p>
+                            <a href="https://github.com/brajesh8055github">brajesh8055github</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- Right Portion -->
-
-            <div class="right">
-                <h3>EDUCATION HISTORY</h3>
-                <p><span>Haldia Institute of Technology</span> - Electronics and Communication Engineering</p>
-                <ul>
-                    <li>Aug 2020 - Jun 2024</li>
-                    <li>YGPA : 8.53</li>
-                </ul>
-                <p><span>St. Xavier's Public School</span></p>
-                <ul>
-                    <li>XII(2020) - 68.4%</li>
-                    <li>X(2017) - 9.8 CGPA</li>
-                </ul> 
-                <h3>WORK EXPERIENCE</h3>
-                <p>FULL-STACK WEBDEVELOPMENT WITH JAVA & SQL - (Jan 2023 - Feb 2023)</p>
-                <p><span>United Network of Professionals</span></p>
-
-                <h3>PROJECTS</h3>
-                <p>Development:</p>
-                <ul>
-                    <li><a href="https://portfolio52.netlify.app/" class="project">Portfolio</a></li>
-                    <li><a href="https://codeguide3.netlify.app/" class="project">Online Course Application</a></li>
-                </ul>
-
-                <h4>REFRENCES</h4>
-                <p><i class="bi bi-linkedin"></i> LinkedIn:</p>
-                   <a  href="https://www.linkedin.com/in/brajesh-kumar-6354ab234/">brajeshkumar-6354ab234</a>
-
-                <p><i class="bi bi-github"></i> Github:</p>
-                <a href="https://github.com/brajesh8055github">brajesh8055github</a>
-            </div>
         </div>
+        <div id="cont">.</div>
+    </div>
+    <script>
+        const printbtn = document.getElementById('cont');
+        printbtn.addEventListener('click', function () {
+            window.print();
+        })
+    </script>
+
 
 </body>
 
