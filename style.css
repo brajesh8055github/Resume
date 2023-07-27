@@ -3,12 +3,31 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.head {
+    padding: 15px 0;
+}
+
+.flex {
+    display: flex;
+    background: #053156;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 0;
 }
 
 .header {
-    background: #4d4d4d;
     color: #fff;
-    padding: 10px;
+    padding: 40px 10px;
     margin: 0;
 }
 
@@ -16,7 +35,6 @@ body {
     max-width: 803px;
     height: 1133px;
     margin: auto;
-    border: 1px solid rgb(0, 0, 0);
     background: #ffffff;
 }
 
@@ -26,17 +44,20 @@ h5 {
 }
 
 .left {
-    flex-basis: 50%;
+    flex-basis: 48%;
     padding: 10px;
+    border-right: 1px solid #000000;
 }
 
 .right {
-    flex-basis: 50%;
+    flex-basis: 48%;
+    padding: 10px;
 }
 
 .b-flex {
     display: flex;
     justify-content: space-between;
+
 }
 
 h3 {
@@ -50,17 +71,16 @@ h3 {
 }
 
 .info i {
-    font-size: 20px;
-    background: #4d4d4d;
-
+    font-size: 15px;
     color: #fff;
-    padding: 5px 10px;
+    padding: 6px 9px;
     border-radius: 50px;
 }
 
 .desc {
     padding-left: 10px;
     margin-left: 10px;
+    color: #fff;
 }
 
 .info p {
@@ -93,7 +113,7 @@ span {
 }
 
 
-@media (max-width:702px) {
+/* @media (max-width:702px) {
     .content {
         display: block;
 
@@ -125,4 +145,4 @@ span {
     .header {
         font-size: 28px;
     }
-}
+} */
